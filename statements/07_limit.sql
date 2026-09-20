@@ -1,2 +1,2 @@
 SELECT * FROM users LIMIT 1; #Limita el numero y trae los resultados en orden de primero a ultimo
-SELECT * FROM users WHERE  email = 'agustinsoster@gmail.com' OR age = 45 LIMIT 1; #De esta forma limitamos los datos para que sea mas facil de leer, en esta base de datos qeu es chica no influye pero en grandes bases sis
+SELECT * FROM users WHERE  email = 'agustinsoster@gmail.com' OR age = 45 LIMIT 1; --De esta forma limitamos los datos para que sea mas facil de leer, en esta base de datos qeu es chica no influye pero en grandes bases sis

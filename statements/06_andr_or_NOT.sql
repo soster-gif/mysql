@@ -1,3 +1,3 @@
-SELECT * FROM users WHERE NOT email = 'agustinsoster@gmail.com'; #sirve para que el dato retornado  no sea el seleccionado en el script
-SELECT * FROM users WHERE NOT email = 'agustinsoster@gmail.com' AND age = 45; # AND sirve para agregar una condicion mas
-SELECT * FROM users WHERE  email = 'agustinsoster@gmail.com' OR age = 45; # A diferencia de "AND" el comando "OR" no es obligatorio que se cumpla si el where se cumple en cambio el "AND" se tiene que cumplir junto con el where
+SELECT * FROM users WHERE NOT email = 'agustinsoster@gmail.com';--  sirve para que el dato retornado  no sea el seleccionado en el script
+SELECT * FROM users WHERE NOT email = 'agustinsoster@gmail.com' AND age = 45; -- AND sirve para agregar una condicion mas
+SELECT * FROM users WHERE  email = 'agustinsoster@gmail.com' OR age = 45; --a   diferencia de "AND" el comando "OR" no es obligatorio que se cumpla si el where se cumple en cambio el "AND" se tiene que cumplir junto con el where

@@ -1,3 +1,3 @@
-SELECT * FROM users WHERE email LIKE '%@gmail.com'; #like significa para buscar lo que contenga lo consiguiente, el "%" significa que lo que importa es lo que esta a la derecha y lo anteriror al "%" es variable. aclaracion, siempre la variable de % es la quue esta al lado contrario vacio del simbolo no siempre es izquierda o derecha por ejemplo agustin% se buscan todos los mails (en este caso ) que tengan el nombre agustin 
-SELECT * FROM users WHERE email LIKE 'agustin%'; # ejemplo de lo explicado antes
-SELECT * FROM users WHERE email LIKE '%@%'; #Se ponen dos "%" para explicar que puede haber variable tanto antes como despues del arroba 
+SELECT * FROM users WHERE email LIKE '%@gmail.com'; -- like significa para buscar lo que contenga lo consiguiente, el "%" significa que lo que importa es lo que esta a la derecha y lo anteriror al "%" es variable. aclaracion, siempre la variable de % es la quue esta al lado contrario vacio del simbolo no siempre es izquierda o derecha por ejemplo agustin% se buscan todos los mails (en este caso ) que tengan el nombre agustin 
+SELECT * FROM users WHERE email LIKE 'agustin%'; -- ejemplo de lo explicado antes
+SELECT * FROM users WHERE email LIKE '%@%'; -- se ponen dos "%" para explicar que puede haber variable tanto antes como despues del arroba 
