@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE AGE BETWEEN 20 AND 30; --sirve para encerrar resultados entre dos valores

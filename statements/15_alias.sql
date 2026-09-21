@@ -1,0 +1,2 @@
+SELECT name, init_date AS "Fecha de inicio" FROM users WHERE AGE BETWEEN 20 AND 30; --el comando "AS" o alias sirve para cambiar el nombre de la columna para que sea mas comodo para nosotros
+SELECT name AS "nombre", init_date   FROM users WHERE AGE BETWEEN 20 AND 30;

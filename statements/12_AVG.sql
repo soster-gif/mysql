@@ -1,0 +1,1 @@
+SELECT AVG(AGE) FROM users; --sirve para sacar medias

@@ -1,0 +1,2 @@
+SELECT * FROM users WHERE name IN ('nacho');
+SELECT * FROM users WHERE name IN ('nacho','agustin'); --sirve como un contenedor de or, sirve para simplificar el codigo y buscar datos que ya sabemos que estan 
