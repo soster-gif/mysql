@@ -1,0 +1,2 @@
+UPDATE users SET age = 18 WHERE user_id = 4 --sirve para actualizar, siempre poner una condicion osea usar where, si usamos el set sin el where modificamos toda la base de datos a esa edad en este ejemplo
+UPDATE users SET age = 18, init_date = "2007-6-15" WHERE  user_id = 4 --podemos cambiar varios datos al mismo tiempo

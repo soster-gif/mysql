@@ -1,0 +1,1 @@
+INSERT INTO users (user_id,age, name, surname) VALUES ( 4, 30, 'jose', 'sosa') --Insertar en significa lo primero, entre parentesis ponemos lo que queremos insertar en la tabla, despues ponemos "VALUES" y ponemos los valores en el mismo orden que los valores que pusimos despues del insert to
