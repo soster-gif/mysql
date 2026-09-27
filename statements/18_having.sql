@@ -1,0 +1,1 @@
+SELECT COUNT(age) FROM users HAVING COUNT(age) > 2; --filtra el resultado final del calculo total
