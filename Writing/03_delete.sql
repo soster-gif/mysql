@@ -1,0 +1,1 @@
+DELETE FROM users WHERE user_id = 11; --sirve para borrar, como en el update siempre hay que poner una condicion (where) porque si no en este caso borrariamos toda la tabla users

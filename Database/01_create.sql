@@ -1,0 +1,1 @@
+CREATE DATABASE hola; --crear base de datos el nombre de la "DB" va en la mayoria de veces en minusculas

@@ -1,0 +1,1 @@
+DROP DATABASE hola; --en vez de crear borra la base de datos
