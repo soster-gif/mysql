@@ -1,0 +1,1 @@
+DROP TABLE persons8; --borrar tablas, hay que indicar el nombre de la tabla que querenos borrar y listo 

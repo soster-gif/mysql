@@ -58,7 +58,7 @@ CREATE TABLE persons7 (
 	name varchar (100) NOT NULL,
 	age INT,
 	email VARCHAR (50),
-	created DATETIME DEFAULT CURRENT_TIMESTAMP(),
+	created DATETIME DEFAULT CURRENT_TIMESTAMP(), --default agrega un dato por defecto en este caso la hora que tiene el database en ese momento
 	PRIMARY KEY (id),
 	CHECK (age >= 18)
 );
